@@ -43,7 +43,7 @@ You just need a modern web browser to view this website. No special software is 
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/forever-yours.git
+    git clone https://github.com/RanaSameerWaqar/Forever-Yours-A-Romantic-Proposal-Website.git
     ```
 2.  **Navigate to the project directory:**
     ```bash
@@ -87,5 +87,5 @@ This project is open source and available under the [MIT License](LICENSE).
 ---
 
 <p align="center">
-  Made with ❤️ for the Love of My Life
+  Developed By SAM DEV WORKS
 </p>
