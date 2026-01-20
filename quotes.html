@@ -1,0 +1,435 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Love Quotes 💌 | Words of Romance</title>
+    <!-- Canonical URL -->
+    <link
+      rel="canonical"
+      href="https://formyrohemaan.netlify.app/quotes.html"
+    />
+    <meta
+      property="og:url"
+      content="https://formyrohemaan.netlify.app/quotes.html"
+    />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💌</text></svg>"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Allura&family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="animations.css" />
+    <style>
+      .quote-card {
+        background: var(--gradient-glass);
+        backdrop-filter: blur(20px);
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        border-radius: 25px;
+        padding: 40px;
+        text-align: center;
+        transition: all 0.4s ease;
+        height: 100%;
+        cursor: pointer;
+      }
+      .quote-card:hover {
+        transform: translateY(-10px);
+        box-shadow: var(--shadow-soft), var(--glow-pink);
+        border-color: rgba(255, 107, 157, 0.4);
+      }
+      .quote-card i.quote-icon {
+        font-size: 2.5rem;
+        color: var(--primary-pink);
+        opacity: 0.3;
+        margin-bottom: 20px;
+      }
+      .quote-text {
+        font-family: var(--font-display);
+        font-size: 1.3rem;
+        font-style: italic;
+        line-height: 1.9;
+        color: var(--text-light);
+        margin-bottom: 25px;
+      }
+      .quote-author {
+        font-size: 1rem;
+        color: var(--primary-pink);
+        font-weight: 500;
+      }
+      .featured-quote {
+        background: var(--gradient-glass);
+        backdrop-filter: blur(20px);
+        border: 2px solid rgba(255, 107, 157, 0.3);
+        border-radius: 30px;
+        padding: 60px;
+        text-align: center;
+        margin: 50px 0;
+      }
+      .featured-quote .quote-text {
+        font-size: 2rem;
+        line-height: 2;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="particles-js"></div>
+    <div id="floating-hearts"></div>
+
+    <nav class="navbar navbar-expand-lg fixed-top glass-nav">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <i class="fas fa-heart heart-pulse"></i>
+          <span>Forever Yours</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html"
+                ><i class="fas fa-home"></i> Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="proposal.html"
+                ><i class="fas fa-ring"></i> Proposal</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="birthday.html"
+                ><i class="fas fa-birthday-cake"></i> Birthday</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html"
+                ><i class="fas fa-images"></i> Gallery</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="quotes.html"
+                ><i class="fas fa-quote-left"></i> Quotes</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="story.html"
+                ><i class="fas fa-magic"></i> Experience</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero-section" style="min-height: 60vh">
+      <div class="hero-overlay"></div>
+      <div class="container h-100">
+        <div class="row h-100 align-items-center justify-content-center">
+          <div class="col-lg-10 text-center">
+            <div class="hero-content" data-aos="fade-up">
+              <h1 class="hero-title">
+                <span class="script-font">Words of</span>
+                <span class="highlight-text">Eternal Romance</span>
+              </h1>
+              <p class="hero-subtitle">Love expressed in beautiful words...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+            <div class="section-header" data-aos="fade-up">
+              <span class="section-tag"
+                ><i class="fas fa-heart"></i> Love Quotes</span
+              >
+              <h2 class="section-title script-font">Timeless Words of Love</h2>
+              <p class="section-subtitle">
+                Beautiful expressions of romance and devotion
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Featured Quote -->
+        <div class="row justify-content-center mt-5" data-aos="zoom-in">
+          <div class="col-lg-10">
+            <div class="featured-quote">
+              <i class="fas fa-quote-left quote-icon"></i>
+              <p class="quote-text">
+                "I have waited for this opportunity for more than half a
+                century, to repeat to you once again my vow of eternal fidelity
+                and everlasting love."
+              </p>
+              <p class="quote-author">
+                - Gabriel García Márquez, Love in the Time of Cholera
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Quote Cards -->
+        <div class="row g-4 mt-4">
+          <div
+            class="col-lg-4 col-md-6"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="quote-card">
+              <i class="fas fa-quote-left quote-icon"></i>
+              <p class="quote-text">
+                "You are my sun, my moon, and all my stars."
+              </p>
+              <p class="quote-author">- E.E. Cummings</p>
+            </div>
+          </div>
+
+          <div
+            class="col-lg-4 col-md-6"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div class="quote-card">
+              <i class="fas fa-quote-left quote-icon"></i>
+              <p class="quote-text">
+                "I love you not only for what you are, but for what I am when I
+                am with you."
+              </p>
+              <p class="quote-author">- Roy Croft</p>
+            </div>
+          </div>
+
+          <div
+            class="col-lg-4 col-md-6"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            <div class="quote-card">
+              <i class="fas fa-quote-left quote-icon"></i>
+              <p class="quote-text">
+                "The best thing to hold onto in life is each other."
+              </p>
+              <p class="quote-author">- Audrey Hepburn</p>
+            </div>
+          </div>
+
+          <div
+            class="col-lg-4 col-md-6"
+            data-aos="fade-up"
+            data-aos-delay="400"
+          >
+            <div class="quote-card">
+              <i class="fas fa-quote-left quote-icon"></i>
+              <p class="quote-text">
+                "I have found the one whom my soul loves."
+              </p>
+              <p class="quote-author">- Song of Solomon 3:4</p>
+            </div>
+          </div>
+
+          <div
+            class="col-lg-4 col-md-6"
+            data-aos="fade-up"
+            data-aos-delay="500"
+          >
+            <div class="quote-card">
+              <i class="fas fa-quote-left quote-icon"></i>
+              <p class="quote-text">
+                "You are every reason, every hope, and every dream I've ever
+                had."
+              </p>
+              <p class="quote-author">- The Notebook</p>
+            </div>
+          </div>
+
+          <div
+            class="col-lg-4 col-md-6"
+            data-aos="fade-up"
+            data-aos-delay="600"
+          >
+            <div class="quote-card">
+              <i class="fas fa-quote-left quote-icon"></i>
+              <p class="quote-text">
+                "In all the world, there is no heart for me like yours. In all
+                the world, there is no love for you like mine."
+              </p>
+              <p class="quote-author">- Maya Angelou</p>
+            </div>
+          </div>
+
+          <div
+            class="col-lg-4 col-md-6"
+            data-aos="fade-up"
+            data-aos-delay="700"
+          >
+            <div class="quote-card">
+              <i class="fas fa-quote-left quote-icon"></i>
+              <p class="quote-text">
+                "Whatever our souls are made of, yours and mine are the same."
+              </p>
+              <p class="quote-author">- Emily Brontë, Wuthering Heights</p>
+            </div>
+          </div>
+
+          <div
+            class="col-lg-4 col-md-6"
+            data-aos="fade-up"
+            data-aos-delay="800"
+          >
+            <div class="quote-card">
+              <i class="fas fa-quote-left quote-icon"></i>
+              <p class="quote-text">
+                "I would rather share one lifetime with you than face all the
+                ages of this world alone."
+              </p>
+              <p class="quote-author">- J.R.R. Tolkien</p>
+            </div>
+          </div>
+
+          <div
+            class="col-lg-4 col-md-6"
+            data-aos="fade-up"
+            data-aos-delay="900"
+          >
+            <div class="quote-card">
+              <i class="fas fa-quote-left quote-icon"></i>
+              <p class="quote-text">
+                "Love is composed of a single soul inhabiting two bodies."
+              </p>
+              <p class="quote-author">- Aristotle</p>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="1000">
+            <div class="quote-card">
+              <i class="fas fa-quote-left quote-icon"></i>
+              <p class="quote-text">
+                "If I know what love is, it is because of you."
+              </p>
+              <p class="quote-author">- Hermann Hesse</p>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="1100">
+            <div class="quote-card">
+              <i class="fas fa-quote-left quote-icon"></i>
+              <p class="quote-text">"Soul meets soul on lovers' lips."</p>
+              <p class="quote-author">- Percy Bysshe Shelley</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Personal Quote -->
+        <div class="row justify-content-center mt-5" data-aos="zoom-in">
+          <div class="col-lg-10">
+            <div
+              class="featured-quote"
+              style="
+                background: linear-gradient(
+                  135deg,
+                  rgba(255, 107, 157, 0.15),
+                  rgba(196, 78, 245, 0.15)
+                );
+              "
+            >
+              <h3
+                style="
+                  font-family: var(--font-script);
+                  font-size: 2.5rem;
+                  color: var(--primary-pink);
+                  margin-bottom: 30px;
+                "
+              >
+                My Words for You
+              </h3>
+              <p class="quote-text" style="font-size: 1.6rem">
+                "Among seven billion people in this world, you are the one who
+                makes my heart beat faster, my smile brighter, and my life
+                infinitely better. You are my once in a lifetime."
+              </p>
+              <p class="quote-author" style="font-size: 1.2rem">
+                - From My Heart to Yours
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer-section">
+      <div class="footer-hearts" id="footer-hearts"></div>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+            <div class="footer-content" data-aos="fade-up">
+              <div class="footer-icon"><i class="fas fa-heart-pulse"></i></div>
+              <h2 class="script-font">Forever & Always</h2>
+              <p class="footer-message">
+                Words may fade, but my love for you never will
+              </p>
+              <div class="footer-signature">
+                <p>With all my love,</p>
+                <h4 class="script-font">Your Forever</h4>
+              </div>
+              <div class="social-hearts">
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-heart"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>
+          Made with <i class="fas fa-heart text-danger"></i> for the love of my
+          life
+        </p>
+        <p class="copyright">
+          © DEVELOPED BY
+          <a
+            href="https://samdevworks.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            SAM DEV WORKS
+          </a>
+        </p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="shared.js"></script>
+    <script src="advanced.js"></script>
+  </body>
+</html>
